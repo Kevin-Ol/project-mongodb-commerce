@@ -25,7 +25,7 @@ complexos como arrays utilizando seus operadores próprios, bem como renomear, a
 
 ### Instruções para restaurar o banco de dados `commerce`
 
-1. Abra o terminal e conecte-se à sua instância local do **MongoDB**. Se você receber uma mensagem de erro com uma mensagem como **_Connection refused_**, tente reiniciar sua instância ([veja como fazer isso aqui](https://app.betrybe.com/course/back-end/introducao-ao-mongodb/mongodb-introducao/d396e5a2-d5c9-4f3a-b723-1a1d3ea06b3d/conteudos/b9646f17-77fc-401e-bab5-421fdc37428e/conectando/f63aa7aa-ac8f-4253-bf76-7fc71e4eac5a?use_case=side_bar)).
+1. Abra o terminal e conecte-se à sua instância local do **MongoDB**. Se você receber uma mensagem de erro com uma mensagem como **_Connection refused_**, tente reiniciar sua instância.
 
 2. Agora que você tem certeza de que a sua instância está no ar e que você está conectado a ela, digite `exit`. Você voltará ao terminal para iniciar a importação dos dados.
 
@@ -36,23 +36,6 @@ complexos como arrays utilizando seus operadores próprios, bem como renomear, a
 
 - A execução desse script criará um banco de dados chamado `commerce` e importará os dados para a coleção `produtos`.
 
----
-
-### Instruções para testar queries
-
-Para executar localmente os testes, é preciso escrever o seguinte no seu terminal, estando na raiz do diretório do projeto:
-
-```sh
-./scripts/evaluate.sh
-```
-
-Esse script passará por **todos os desafios** e imprimirá um relatório indicando se passou ou não para cada desafio. Como a execução do script **envolve restauração da base de dados `commerce`** de um teste para outro, recomenda-se esperar pela sua execução completa.
-
-Para executar somente o teste de um desafio, execute o comando abaixo, substituindo N pelo númedo do desafio
-
-```sh
-./scripts/evaluate.sh desafioN
-```
 ---
 
 # Requisitos do projeto
